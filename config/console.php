@@ -24,6 +24,11 @@ $config = [
         ],
         'db' => $db,
     ],
+    'modules' => [
+        'rbac' => [
+            'class' => 'dektrium\rbac\Module',
+        ],
+    ],
     'params' => $params,
     /*
     'controllerMap' => [

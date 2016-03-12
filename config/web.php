@@ -47,6 +47,11 @@ $config = [
         ],
         */
     ],
+    'modules' => [
+        'rbac' => [
+            'class' => 'dektrium\rbac\Module',
+        ],
+    ],
     'params' => $params,
 ];
 
